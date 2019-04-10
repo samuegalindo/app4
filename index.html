@@ -1,0 +1,334 @@
+<!DOCTYPE html> 
+<head>
+<title>DÍA Internacional de la madre tierra</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<!--grupo css-->
+<link rel = "stylesheet" href="css/tema-proyecto.min.css"/>
+<link rel = "stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+<link rel = "stylesheet" href="css/theme.app4.min.css"/>
+<link rel = "stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo js-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<!----Menu Lateral--->
+	<link rel="stylesheet"href="css/sldr.css">
+  <link rel="stylesheet"href="css/style.css">
+    <script src="js/jsplug.js"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/tierra-10.jpg','imagenes/tierra-12.jpg','imagenes/img-9.jpg')">
+<div data-role= "page" id = "Principal"data-theme="a">
+<div data-role= "header" data-add-back-btn = "true" data-back-btn-text = "Regresar" data-back-btn-theme= "a">
+<h1>Dia Internacional de la madre Tierra 22 de abril</h1>
+</div>
+<div class="container">
+<div id="sidebar">
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>¿Porqué se celebra?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Historia del Día</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>La Tierra que habitamos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Dialogo sobre la armonía con la naturaleza</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Hacia una tierra sostenible</h2>
+</a>
+</li>
+</ul>
+</div>
+
+	<div class="main-content">
+    <div class="swipe-area"></div>
+    	<a href="#" data-toggle=".container" id="sidebar-toggle">
+        	<span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+     </div>
+     </div>
+     <center>
+     <br>
+     <div class="slider">
+     	<ul>
+        	<li><img src="imagenes/tierra-1.jpg" alt="sldr"></li>
+            <li><img src="imagenes/tierra-2.jpg" alt="sldr2"></li>
+            <li><img src="imagenes/tierra-3.jpg" alt="sldr3"></li>
+            <li><img src="imagenes/tierra-4.jpg" alt="sldr4"></li>
+            <li><img src="imagenes/tierra-5.jpg" alt="sldr5"></li>
+            <li><img src="imagenes/tierra-6.jpg" alt="sldr6"></li>
+            <li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+            <li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+        </ul>
+     </div>
+     </center>
+     <center>
+     <div data-role="main" class="ui-content">
+     <br> <br> <br> <br> <br> <br> <br> <br> <br>
+       <div data-role="collapsible" data-content-theme="a" >
+       <h1>Realizado por:</h1>
+       <h2>Estebasn Samuel Galindo Rodríguez</h2>
+       <p>Cuarto "F"</p>
+       <h1>Especialidad</h1>
+       <p>Programación</p>
+       <h2>Submodulo</h2>
+       <p>Desarrolla Aplicaciones Móviles</p>
+       <h2>Docente</h2>
+       <p>Lic.José Antonio Gómez Hernández</p>
+     </div>
+    </div>
+    <div data-role="main" class="ui-content">
+     <br>
+       <div data-role="collapsible" data-content-theme="a" >
+       <h1>Imagenes extras</h1>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/img-9.jpg',1)"><img src="imagenes/img-8.jpg" width="1600" height="978" id="Image20"></a> </div>
+    </div>
+   </center>
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4>Día de la Madre Tierra</h4>
+   <h4>Esteban Samuel Galindo Rodríguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+  </div>
+  
+  <!--Pagina 1-->
+  <div data-role="page" id="Pagina1" data-add-back-btn="true"data-theme="a">
+   <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>¿Porqué se celebra?</h1>
+   </div>
+   <center>
+   <div data-role="main" class="ui-content">
+   <p>
+   celebramois el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día,	asumimos,además de la responsabilidad colectiva, como nos recordaba la Declaración de Río 1992, de fomentar esta armonia con la naturaleza y la Madre Tierra.
+   	Este día nos brinda también la oportunidad de concienciar a todos los hábitantes del planet6a acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en el se desarrollan.
+    
+    </p>
+   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/tierra-10.jpg',1)"><img src="imagenes/tierra-9.jpg" width="727" height="720" id="Image15"></a></p>
+    </div>
+    </center>
+    <center>
+    
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button" >
+     <h4>Ver más</h4>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4>Esteban Samuel Galindo Rodríguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   
+     <!--Pagina 2-->
+  <div data-role="page" id="Pagina2" data-add-back-btn="true"data-theme="a">
+   <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Historia del Día</h1>
+   </div>
+   <center>
+   <div data-role="main" class="ui-content">
+   <p>
+   En 1968, Morton Hilbert y el U.S. Public Health Service (Servicio de Salud Pública de E.E.U.U.), organizaron el Simposio de Ecología Humana, se realiza una conferencia por los nombrados anteriormente para una asamblea o conferencia medioambiental para que estudiantes escucharan a científicos hablar sobre los efectos del deterioro ambiental en la salud humana.2 Este fue el primer antecedente del Día de la Tierra. Durante los siguientes dos años, Hilbert y sus estudiantes trabajaron para planear el primer Día de la Tierra.3 Surgieron otros esfuerzos como Survival Project (Proyecto para la Supervivencia), uno de los primeros eventos educacionales de conciencia ambiental, que fue llevado a cabo en la Universidad Northwestern el 23 de enero de 1970. Este fue el primero de varios eventos realizados en campus universitarios por todo Estados Unidos. Así mismo, Ralph Nader empezó a hablar acerca de la importancia de la ecología en 1970.
+
+La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas (primarias y secundarias) y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinadas a la protección del medio ambiente.4
+
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente. La Cumbre de la Tierra de Estocolmo cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales
+
+    </p>
+   <p><img src="imagenes/tierra-14.jpg" width="400" height="285" alt=""></p>
+    </div>
+    </center>
+    <center>
+    
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   </li>
+  </ul>
+ </div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4>Esteban Samuel Galindo Rodríguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   
+     <!--Pagina 3-->
+  <div data-role="page" id="Pagina3" data-add-back-btn="true"data-theme="a">
+   <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>La Tierra que habitamos</h1>
+   </div>
+   <center>
+   <div data-role="main" class="ui-content">
+   <p>
+   Madre Tierra es una expresión común utilizada para referirse al Planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos.
+La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.
+Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra.
+Este día nos brinda también la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarrollan.
+    
+    </p>
+   <p><img src="imagenes/tierra-15.jpg" width="800" height="420"></p>
+    </div>
+    </center>
+    <center>
+    
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   </li>
+  </ul>
+ </div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4>Esteban Samuel Galindo Rodríguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   
+     <!--Pagina 4-->
+  <div data-role="page" id="Pagina4" data-add-back-btn="true"data-theme="a">
+   <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Dialogo sobre la armonía con la naturaleza</h1>
+   </div>
+   <center>
+   <div data-role="main" class="ui-content">
+   <p>
+   Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día asumimos, además, la responsdabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra. 
+      Este día nos brinda también la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan al planeta y las diferentes formas de vida que en él se desarrollan.
+    
+    </p>
+   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/tierra-12.jpg',1)"><img src="imagenes/tierra-13.jpg" width="1300" height="738" id="Image16"></a></p>
+    </div>
+    </center>
+    <center>
+    
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   </li>
+  </ul>
+ </div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4>Esteban Samuel Galindo Rodríguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   
+     <!--Pagina 5-->
+  <div data-role="page" id="Pagina5" data-add-back-btn="true"data-theme="a">
+   <div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Hacia una tierra sostenible</h1>
+   </div>
+   <center>
+   <div data-role="main" class="ui-content">
+   <p>
+   La gestión integrada de paisajes requiere comprender los diferentes impactos del uso de la tierra y equilibrar los intereses a menudo contradictorios de los diferentes grupos involucrados.
+
+Imaginemos que usted forma parte del gobierno del país X en África subsahariana. Desea cumplir con el Objetivo de Desarrollo Sostenible No. 1 que reza: “acabar con la pobreza en todas sus formas en todas partes". 
+
+Sin embargo, es consciente de la necesidad de implementar todos los 17 Objetivos, incluido el Objetivo 15, que busca: "Gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad.”
+
+Imagine que usted tiene una gran extensión de pastizales secos donde casi nadie vive y quiere explotarlos de mejor manera, en beneficio de su gente.
+Un gobierno extranjero le ofrece pagar $ x mil millones por un arrendamiento de 30 años de un área de 1.000 kilómetros cuadrados de tierra seca, con al menos una fuente de agua durante todo el año. La tierra será vallada y utilizada para ejercicios militares.
+
+Luego se le acerca un consorcio minero internacional que desea tomar un arrendamiento de 30 años para usar y vallar 1.000 kilómetros cuadrados de tierra para la exploración y producción de petróleo. El alquiler por sí solo aportará $ x mil millones, y mucho más si el petróleo comienza a fluir.
+
+Al mismo tiempo, un país extranjero adinerado quiere cultivar una gran extensión de tierra y está dispuesto a invertir en tuberías para traer agua de un lago lejano. El plan es cultivar garbanzos usando riego por goteo, creando algunos trabajos locales.
+
+Las tres ofertas de proyectos cubren una vasta extensión de tierras aparentemente subutilizadas y el dinero sobre la mesa parece demasiado bueno para ser verdad. 
+    
+    </p>
+   <p><img src="imagenes/tierra-11.jpg" width="963" height="541"></p>
+    </div>
+    </center>
+    <center>
+    
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.unenvironment.org/es/news-and-stories/reportajes/como-podemos-usar-nuestra-tierra-de-manera-sostenible" target="_self" data-role="button" >
+     <h4>Ver más</h4>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4>Esteban Samuel Galindo Rodríguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   </body>
+   </html>
+    
+  
+   	 
+   
+  
+  
+  
+  
+  
